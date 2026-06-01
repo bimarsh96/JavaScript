@@ -36,3 +36,13 @@ console.log(otherno.toPrecision(3));
 
 const bank = 10000000;
 console.log(bank.toLocaleString());
+
+// console.log(Math.abs(-4));
+// console.log(Math.random());
+// console.log(Math.random());
+console.log(Math.random()*10);
+console.log((Math.random()*10)+1)
+
+const max=20;
+const min=10;
+console.log (Math.floor(Math.random() *(max-min ))+min );
