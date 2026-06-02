@@ -1,7 +1,7 @@
 // const sym = Symbol("key1")
 
 // const school={
-//     name:"ram",
+//     "name":"ram",
 //     age:43,
 //     [sym]:"key1",
 //     vgpa:4,
@@ -47,13 +47,54 @@ const obj3={
 // console.log(obj4);
 
 
-const tinder={
-    name:"ram",
-age:45,
-isloogedin:false,
-gmail:"ghfd@gmail.com",
-}
+// const tinder={
+//     name:"ram",
+// age:45,
+// isloogedin:false,
+// gmail:"ghfd@gmail.com",
+// }
 
-console.log(tinder)
-console.log(Object.keys(tinder));
-console.log(Object.values(tinder))
+// console.log(tinder)
+// console.log(Object.keys(tinder));
+// console.log(Object.values(tinder))
+
+
+// const course ={
+//     coursename:"english",
+//     price:1000,
+//     courseinstructor:"hitesh"
+// }
+// const{courseinstructor:instructor}=course 
+// console.log(instructor)
+
+
+
+
+// const obj3 = {...obj1,...obj2}
+
+// course.coursename + " " + course.price;
+
+
+
+// const life={
+//     name:"ram",
+// class:4,
+// gpa:4,
+// }
+
+// let result=("name" in life);         //to know if it exist 
+// console.log(life)
+// console.log(result)
+
+
+
+const details= {
+firstname:"babu",
+secondname:"thapa",
+age:34,
+fullname:function(){
+    return this.firstname + " " + this.secondname;
+}
+};
+console.log(details)
+console.log(fullname  )
