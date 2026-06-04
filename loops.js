@@ -86,8 +86,11 @@
 //     console.log("key value=" ,i , "value=",obj[i] );
 // }
 
-for (let n =0; n<=100; n++){
-    if(n%2 ===0){
-        console.log("even no",n)
-    }
-}
+// for (let n =0; n<=100; n++){
+//     if(n%2 ===0){
+//         console.log("even no",n)
+//     }
+// }
+
+
+

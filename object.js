@@ -88,13 +88,13 @@ const obj3={
 
 
 
-const details= {
-firstname:"babu",
-secondname:"thapa",
-age:34,
-fullname:function(){
-    return this.firstname + " " + this.secondname;
-}
-};
-console.log(details)
-console.log(fullname  )
+// const details= {
+// firstname:"babu",
+// secondname:"thapa",
+// age:34,
+// fullname:function(){
+//     return this.firstname + " " + this.secondname;
+// }
+// };
+// console.log(details)
+// console.log(fullname  )

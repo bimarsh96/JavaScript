@@ -69,10 +69,11 @@
 
 // console.log(menu(3,4))
 
-( ()  => {
-   console.log(`hello`)
-})();
+// ( ()  => {
+//    console.log(`hello`)             //iife
+// })();
 
-( function ()  {
-   console.log(`hello`)
-})()
+// ( function ()  {
+//    console.log(`hello`)
+// })()
+

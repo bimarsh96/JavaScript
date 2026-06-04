@@ -61,6 +61,3 @@
 //  const arr3=[...arr1,...arr2,...ar4];
 //  console.log(arr3)
 
-let arr=[1,2,3,4,5]
-console.log(arr.from("bimarsh"))
- console.log(arr.from({name:"bimarsh"}))

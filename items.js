@@ -114,6 +114,9 @@ const shoppingcart=[
   } ,
 ]
 
-const grandtotal= shoppingcart.reduce(  (acc,item) => acc+item.price,0)
+// const grandtotal= shoppingcart.reduce(  (acc,item) => acc+item.price,0)
 
-console.log(grandtotal)
+// console.log(grandtotal)
+
+const output = shoppingcart.map ( (item) => item)
+console.log(output)
