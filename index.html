@@ -5,39 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DoM LEARNING </title>
 </head>
-<body class="main" style="background-color: black; color:white" >
-
-<div class="parent" >
-<div class="day">sunday</div>
-<div class="day">monday</div>
-<div class="day">tuesday</div>
-<div class="day">wednesday</div>
-<div class="day">thursday</div>
+<body>
+<!-- <div id="box" style="width:200px; height:100px;padding:30px;
+border:1px solid black;">Move mouse over here</div>
 </div>
 
+<script>
+   const box=document.getElementById("box")
+
+ box.addEventListener("mouseover",function(){
+    box.innerHTML ="mouse is moving "
+  })
+box.addEventListener("mouseout", function () {
+  box.innerHTML = "Move is out!";
+});
+
+ </script> -->
+
+ <div id="box" style="width:200px;height:100px;padding:16px;border:1px solid #000;">
+Move mouse over this box
+</div>
 
 <script>
-const parent= document.querySelector(".parent");
-console.log(parent)
-console.log(parent.children )
-console.log(parent.children[1].innerHTML )
-for(let i=0; i < parent.children.length ; i++){
-              console.log(parent.children[i].innerHTML);
-}
+const box = document.getElementById("box");
 
- parent.children[0].style.color="orange"
-// console.log(parent.firstElementChild);
-// console.log(parent.lastElementChild);
+// Let box listen for mouseover
+box.addEventListener("mouseover", function () {
+  box.innerHTML = "Mouse is over me!";
+});
 
-
-const day=document.querySelector(".day");
-console.log(day)
-console.log(day.parentElement);
+// Let box listen for mouseout
+box.addEventListener("mouseout", function () {
+  box.innerHTML = "Move is out!";
+});
 </script>
-
-
-
-
 </body>
 </body>
 </html>
@@ -50,20 +51,4 @@ console.log(day.parentElement);
 
 
 
-    <!-- <div class="black">
-    <h1 id="title" class="heading"> Old Heading</h1>
-    <h2 id="seclin" class="just">dang dang</h2>
-    <h2 id="seclin" class="just">dang dang</h2>
-    <h2 id="seclin" class="just">dang dang</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea id itaque 
-    </p>
-    <ul>
-        <li> onw</li>
-        <li> tow</li>
-        <li> trhe</li>
-    </ul>
-</div> -->
-<!-- <script>
-const element = document.getElementById("id01");
-element.innerHTML = "New Heading";
-</script> -->
+

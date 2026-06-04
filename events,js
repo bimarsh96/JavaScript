@@ -1,0 +1,9 @@
+<script>
+    document.getElementById("first").addEventListener("click",function(e){
+        console.log("clicked outside the ul")
+    },false)
+        document.getElementById("day2").addEventListener("click",function(e){
+        console.log("monday clicked")
+        e.stopPropagation()
+    },false)
+   </script>
