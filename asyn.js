@@ -117,27 +117,70 @@
 
 
 
-const promisethree= new Promise ((resolve,reject) =>{
-    setTimeout(()=>{
-        let error=false;
-        if(!error){
-  resolve({name:"chintu",password:"123"})
-        }else{
-            reject( 'error:something went wrong')
-        }
-    },2000)
-});
+// const promisethree= new Promise ((resolve,reject) =>{
+//     setTimeout(()=>{
+//         let error=false;
+//         if(!error){
+//   resolve({name:"chintu",password:"123"})
+//         }else{
+//             reject( 'error:something went wrong')
+//         }
+//     },2000)
+// });
 
-promisethree.then((user)=>{
-    console.log(user)
-    return user.name
+// promisethree.then((user)=>{
+//     console.log(user)
+//     return user.name
+// })
+// .then((name)=>{                        nested call back use gareko .then .catch and .finally
+//     console.log(name)
+// }) 
+// .catch((error)=>{
+//     console.log(error)
+// })
+// .finally(()=>
+//     console.log("finally completed")
+// )
+
+
+
+// const lib = new Promise ((resolve,reject) => {
+//     setTimeout(()=>{
+//     let error=true;
+// if(!error){
+//   resolve({username:"kaka",address:"butwal"})
+// }else{
+//     reject("js went wrong")
+// }
+//  },2000);
+// })
+
+//  async function fornxt(){
+// //     const pap=await lib               asynn wait use agreko
+// //   console.log(pap);
+  
+// try {
+//      const pap=await lib
+//       console.log(pap);
+// } catch (error) {
+//     console.log(error)
+// }
+// }
+// fornxt()
+
+
+const data=new Promise((resolve,reject)=>{
+    setTimeout(()=>{
+resolve("sucess")
+    },2000 )
 })
-.then((name)=>{
-    console.log(name)
-}) 
-.catch((error)=>{
-    console.log(error)
-})
-.finally(()=>
-    console.log("finally completed")
-)
+(async function() {
+console.log("data1....")
+await getdata(1);
+
+console.log("data2....")
+await getdata(2);
+
+console.log("data3...")
+await getdata(3);
+})();
