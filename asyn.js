@@ -184,3 +184,22 @@ await getdata(2);
 console.log("data3...")
 await getdata(3);
 })();
+
+
+// setTimeout(Array,3000);
+// function Array(){
+//     document.getElementById("demo").innerHTML= "hELOO wORLD"
+// }
+
+// function  result(value){
+//     display(value)
+// }
+
+
+
+// setTimeout(()=>{
+// result=300;
+
+// },2000)
+
+// console.log( result)

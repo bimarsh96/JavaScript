@@ -7,7 +7,6 @@
 //   setTimeout(resolve, 100, "Queen");
 // });
 
-
 // Promise.all([myPromise1, myPromise2]).then((x) => {
 //   myDisplay(x);                  //promise all
 // });
@@ -17,9 +16,6 @@
 //      results.forEach((x) => myDisplay)(x.status))
 
 // )
-
-
-
 //  Promise.any([myPromise1,myPromise2]).then((x)=>{
 //     myDisplay(X);
 // })
@@ -31,10 +27,6 @@
     
 // }, 100);
 // })
-
-
-
-
 
 // let timeout;
 
@@ -62,11 +54,52 @@
 
 
 
-myDisplay("a");
-setTimeout(() => {
-    myDisplay("b")
-}, 2000);
-myDisplay("c")
+// myDisplay("a");
+// setTimeout(() => {
+//     myDisplay("b")
+// }, 2000);
+// myDisplay("c")
+// console.log(myDisplay)
 
 
-console.log(myDisplay)
+
+
+
+// const promiseone= new Promise(function(resolve,reject){
+// setTimeout(function(){
+//     console.log("asynchhhhhhhhhh")
+//     resolve()
+// },1000)
+// })
+// promiseone.then(function(){
+//     console.log("promise consumed");
+
+// })
+
+
+// new Promise(function(resolve,reject){
+//     setTimeout(function(){
+//         console.log("async task")
+//         resolve()
+//     },1000)
+// }).then(function(){
+//     console.log("whyy")
+// })
+
+
+const  promisethree = new Promise (function(resolve,reject){
+setTimeout(function(){
+    resolve(  {
+        username:"hari",
+        email:"ram123@gmail.com"
+    })
+},1000)
+
+})
+promisethree.then(function(user){
+    console.log(user)
+}
+)
+
+
+const 

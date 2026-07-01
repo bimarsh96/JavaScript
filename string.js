@@ -40,6 +40,12 @@ console.log(bank.toLocaleString());
 // console.log(Math.abs(-4));
 // console.log(Math.random());
 // console.log(Math.random());
+
+
+
+forrrr color changingggg event listener 
+
+
 console.log(Math.random()*10);
 console.log((Math.random()*10)+1)
 
@@ -47,3 +53,33 @@ const max=20;
 const min=10;
 console.log (Math.floor(Math.random() *(max-min +1))+min );   // random valur generate betn 10-20//
 
+const  randomcolor=function(){
+    const hex="0123456ABCDEF";
+    let color="#";
+    for(let i=0; i<6 ; i++){
+    color += hex[Math.floor(Math.random()*10)];
+    }
+
+return color;
+};
+let intervalid
+const startchanging=function(){
+  if(!intervalid){
+      intervalid= setInterval(changebg,1000)
+  }
+    
+    function changebg(){
+        document.body.style.backgroundColor=randomcolor();
+    }
+
+};
+const stopchanging=function(){
+    clearInterval(intervalid);
+    intervalid=null;
+};
+
+document.querySelector("#start").addEventListener
+("click",startchanging);
+
+document.querySelector("#stop").addEventListener
+("click",stopchanging);
