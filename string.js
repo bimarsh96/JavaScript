@@ -83,3 +83,8 @@ document.querySelector("#start").addEventListener
 
 document.querySelector("#stop").addEventListener
 ("click",stopchanging);
+
+
+
+console.log(Math.abs(-4))
+
