@@ -1,9 +1,9 @@
-// // const sym = Symbol("key1")
+// const sym = Symbol("key1")
 
 // const school={
 //     "name":"ram",
 //     age:43,
-//     [sym]:"key1",
+//     [mysym]:"key1",
 //     vgpa:4,
 //     email:"ram@gmail.com",
 //     address:"patan",
@@ -12,8 +12,8 @@
 // console.log(school);
 // console.log(school.age);
 // console.log(school["name"])
-// console.log (school[sym])   //for symbol
-// Object.freeze(school)     //so that u cannt change 
+// console.log(school[sym])   //for symbol
+// // Object.freeze(school)     //so that u cannt change 
 
 // school.name="hari"
 // console.log(school)  
@@ -99,3 +99,42 @@
 // console.log(details)
 // console.log(fullname  )
 
+// const regularuser={
+//     email:"ram@gmail.com",
+//     username:{
+//         detail:{
+
+        
+//         firstname:"eaa",
+//         lastname:"gc",
+//         }
+//     }
+// }
+// console.log(regularuser.username.detail.firstname)
+
+
+// const school={
+//     "name":"ram",
+//     age:43,
+//    [sym]:"key1",
+//     vgpa:4,
+//     email:"ram@gmail.com",
+//     address:"patan",
+// }
+// console.log(school["email"])
+// console.log(school[sym])
+
+
+// const obj1 ={1:"a",2:"b"}
+// const obj2 ={3:"c",4:"c"}
+// const obj3={...obj1,...obj2}
+// console.log(obj3)
+
+const course ={
+    coursename:"js course",
+    price:"999",
+    courseinst:"ram"
+}
+
+const {price:p}=course
+console.log(p)

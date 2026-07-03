@@ -61,3 +61,28 @@
 //  const arr3=[...arr1,...arr2,...ar4];
 //  console.log(arr3)
 
+
+// const heros=["thor","spiderman","ironman"]
+// const dc=["batman","spiderman"]
+// const ind=new Array("power","saktiman")
+// let arr3=heros.concat(dc);
+// console.log(arr3)
+
+// let arr4=[...heros,...dc,...ind]
+// console.log(arr4)
+
+
+// const another=[1,2,3,4,[5,6,7],8,[9,10,[11,12]]]
+// const final=another.flat(1);
+// console.log(final)
+
+
+// console.log(Array.isArray("hitesh"))
+//  console.log(Array.from("hitesh"))
+//  console.log(Array.from({name:"ram"}))  ///object lai return  empty because we have to clarify what to object key and value dena parxa
+
+
+const myArr= []
+%DebugPrint(myArr)
+
+c

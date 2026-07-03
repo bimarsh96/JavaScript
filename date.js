@@ -24,4 +24,4 @@ console.log(mynew) ;
 // let mydate = new Date;
 // console.log(mydate.toString())
 
-
+console.log(newdate.newmonth())

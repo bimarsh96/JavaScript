@@ -77,3 +77,49 @@
 //    console.log(`hello`)
 // })()
 
+// function addtwo(a,b){
+// return a+b;
+// }
+// let b=addtwo(4,5)
+// console.log(b)
+
+
+
+// function loginuser(username="ram"){
+//     if(!username ){
+//        console.log("please enter a username ")
+//        return
+//     }
+//     return `${username} just logged in`
+// }
+// // console.log(loginuser("hitesh"));
+
+// console.log(loginuser())
+
+
+function calculatecart(val1,val2,...num1){
+    return num1;
+
+}
+console.log(calculatecart(200,400,600,1000))
+
+
+
+
+const user ={
+    name:"ram",
+    age:6,
+
+}
+
+function handleobject(anyobject ){
+console.log(`username is ${anyobject.name} and the price is  ${anyobject.price}`)
+}handleobject(user);
+
+
+
+const newarry=[2,3,4,5]
+function handlearry(anyarry){
+    return anyarry[2]
+}
+console.log(handlearry(newarry))

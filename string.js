@@ -86,5 +86,4 @@ document.querySelector("#stop").addEventListener
 
 
 
-console.log(Math.abs(-4))
 

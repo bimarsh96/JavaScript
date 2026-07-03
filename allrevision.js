@@ -142,4 +142,38 @@
 // console.log(mytotal)
 
 
-document.getElementById("first heading").innerHTML = "<h1>chai aur code </h1>"
+// document.getElementById("first heading").innerHTML = "<h1>chai aur code </h1>"
+
+
+// function one(){
+//      const username="rma"
+
+//      function two(){
+//         const website ="youtube "
+//         console.log(username);
+//      }
+//     //  console.log(website)
+//     //   two()
+// }
+// one()
+
+
+
+if(true){
+    const username="ram"
+    if(username === "ram"){
+        const website ="youtube"
+        console.log(website+username )
+    }
+    // console.log(website )
+}
+// console.log(username)
+
+
+const details={
+    name:"ram",
+  price:566,
+   function() {
+    console.log(`${this.name},price `)
+   }
+}

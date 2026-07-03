@@ -1,6 +1,13 @@
-const coding = ["js","ruby","python","cap"];
+class User {
+    constructor(username,email,password){
+    this.username=username;
+    this.email=email;
+    this.password=password
 
-const values=coding.forEach((item)=>{
-    console.log(item);
-
-})dwd
+}
+encryptPassword(){
+    return `${this.password}abc`
+    
+}}
+ const chai = new User("ram","ram@gmail","123")
+console.log(chai.encryptPassword());
