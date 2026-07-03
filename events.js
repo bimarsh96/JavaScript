@@ -20,16 +20,16 @@
     },false)
 
 
-    <div id="box" style="width:200px; height:100px;padding:30px;
-border:1px solid black;">Move mouse over here</div>
-</div>
+//     <div id="box" style="width:200px; height:100px;padding:30px;
+// border:1px solid black;">Move mouse over here</div>
+// </div>
 
-<script>
-   const box=document.getElementById("box")
+// <script>
+//    const box=document.getElementById("box")
 
- box.addEventListener("mouseover",function(){
-    box.innerHTML ="mouse is moving "
-  })
-box.addEventListener("mouseout", function () {
-  box.innerHTML = "Move is out!";
-});
+//  box.addEventListener("mouseover",function(){
+//     box.innerHTML ="mouse is moving "
+//   })
+// box.addEventListener("mouseout", function () {
+//   box.innerHTML = "Move is out!";
+// });
