@@ -130,11 +130,47 @@
 // const obj3={...obj1,...obj2}
 // console.log(obj3)
 
-const course ={
-    coursename:"js course",
-    price:"999",
-    courseinst:"ram"
+// const course ={
+//     coursename:"js course",
+//     price:"999",
+//     courseinst:"ram"
+// }
+
+// const {price:p}=course
+// console.log(p)
+
+
+
+// const preson={
+//     firstname : "ram",
+//     lastname:"ok",
+//     age:5,
+//     fullname:function(){
+//         return this.firstname + " " + this.lastname;
+//     }
+// };
+// let obj= preson.fullname()
+// console.log(obj)
+
+// const obj={
+//     name:"ram",
+
+// }
+
+function person(age,name,address,eye){
+    this.age=  age;
+    this.name=name;
+    this.address=address;
+    this.eye= eye;
 }
 
-const {price:p}=course
-console.log(p)
+person.prototype.nationality=function(xyz){
+    this.eye    = xyz;
+
+}
+change.nationality("english")
+
+
+const result = new person(1,"ram","tam","green",)
+console.log(result)
+

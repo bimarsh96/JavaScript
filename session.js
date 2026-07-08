@@ -15,3 +15,8 @@ if(localStorage.clickcount){
 else{
     localStorage.clickcount=1;
 }
+
+
+let origin = location.origin;   //
+
+if(window.mediaMat)

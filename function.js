@@ -3,16 +3,12 @@
 // }
 // sum(3,4)
 
-
-
 // function sum(num1,num2){
 // let result=num1 +num2;
 // return result;
 // }
 //        let result =sum(3,3)
 // console.log(result)
-
-
 
 // function login (username="ram"){
 //  if(!username){
@@ -24,14 +20,10 @@
 
 // // console.log(login())
 
-
-
 // function mycart(val1,val2, ...num1){     //VAL1 AND VAL2  to store value..
 // return num1
 // }
 // console.log(mycart(200,400,500))
-
-
 
 // const office={
 //     name:"ramu",
@@ -57,11 +49,9 @@
 //         console.log(username+website);
 
 //     }
-    // console.log(website)
+// console.log(website)
 // }
 // console.log(username)           //because from child to parent cannt be executed bt from parent to child can be
-  
-
 
 // const menu = (num1 ,num2)  => {
 //     return num1+ num2
@@ -83,8 +73,6 @@
 // let b=addtwo(4,5)
 // console.log(b)
 
-
-
 // function loginuser(username="ram"){
 //     if(!username ){
 //        console.log("please enter a username ")
@@ -96,30 +84,73 @@
 
 // console.log(loginuser())
 
+// function calculatecart(val1,val2,...num1){
+//     return num1;
 
-function calculatecart(val1,val2,...num1){
-    return num1;
+// }
+// console.log(calculatecart(200,400,600,1000))
 
-}
-console.log(calculatecart(200,400,600,1000))
+// const user ={
+//     name:"ram",
+//     age:6,
 
+// }
 
+// function handleobject(anyobject ){
+// console.log(`username is ${anyobject.name} and the price is  ${anyobject.price}`)
+// }handleobject(user);
 
+// const newarry=[2,3,4,5]
+// function handlearry(anyarry){
+//     return anyarry[2]
+// // }
+// console.log(handlearry(newarry))
 
-const user ={
-    name:"ram",
-    age:6,
+// function sayhello(){
+//     return "hello world"
+// }
 
-}
+// let hy=sayhello
 
-function handleobject(anyobject ){
-console.log(`username is ${anyobject.name} and the price is  ${anyobject.price}`)
-}handleobject(user);
+// console.log(hy)
 
+// function add(x,y){
+//     return x+y+z;
 
+// }
 
-const newarry=[2,3,4,5]
-function handlearry(anyarry){
-    return anyarry[2]
-}
-console.log(handlearry(newarry))
+// let sum=add(1,2,3)
+// console.log(sum)
+
+// function multiply(a,b){
+//     let x= a * b;
+//     return x;
+// }
+// let result = multiply(4,6);
+// console.log(result)
+
+// let x= findmax(11,12,13,14,15,16);
+
+// x = sumAll(1, 123, 500, 115, 44);
+
+// function sumAll() {
+//   let sum = 0;
+//   for (let i = 0; i < arguments.length; i++) {
+//     sum += arguments[i];
+//   }
+//   return sum;
+// }
+// console.log(sumAll(34,343,232,353,23));
+
+// function run(fn) {
+//   return fn();
+// }
+
+// const sayhello = function () {
+//   return "hello";
+// };
+// // console.log(run(sayhello));
+
+// console.log(myFunction());
+// const myFunction = (x) => 2;
+
