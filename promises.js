@@ -101,5 +101,3 @@ promisethree.then(function(user){
 }
 )
 
-
-const 

@@ -82,7 +82,8 @@
 //  console.log(Array.from({name:"ram"}))  ///object lai return  empty because we have to clarify what to object key and value dena parxa
 
 
-const myArr= []
-%DebugPrint(myArr)
+// const heros=["speed","hulk","spidey"]
+// let hers=heros[0]
+// console.log(hers)
 
-c
+

@@ -9,21 +9,23 @@
 
 
 
-<body style="background-color: black; color:white">
-
-<h1>Simple Project </h1>
-<button id ="start">Start</button>
-<button id ="stop">Stop</button>
-
-</div>
-
-<script>
+<body>
+<div id="demo">new</div>
 
 
+    <script>
+        function greet(name,callback){
+            callback("hello" + " " +  name);
+
+        }
+        function display(message){
+            document.getElementById("demo").innerHTML=message;
+        }
 
 
-</script>
-</body>
+        greet("john",display)
+    </script>
+
 </body>
 </html>
 

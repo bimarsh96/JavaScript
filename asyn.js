@@ -169,21 +169,21 @@
 // fornxt()
 
 
-const data=new Promise((resolve,reject)=>{
-    setTimeout(()=>{
-resolve("sucess")
-    },2000 )
-})
-(async function() {
-console.log("data1....")
-await getdata(1);
+// const data=new Promise((resolve,reject)=>{
+//     setTimeout(()=>{
+// resolve("sucess")
+//     },2000 )
+// })
+// (async function() {
+// console.log("data1....")
+// await getdata(1);
 
-console.log("data2....")
-await getdata(2);
+// console.log("data2....")
+// await getdata(2);
 
-console.log("data3...")
-await getdata(3);
-})();
+// console.log("data3...")
+// await getdata(3);
+// })();
 
 
 // setTimeout(Array,3000);
@@ -203,3 +203,46 @@ await getdata(3);
 // },2000)
 
 // console.log( result)
+
+
+
+
+// function greet(name,callback){
+//     callback("hello" + name)
+// }
+
+// function display(message){
+    
+// }
+
+
+// function add(x,y,operation){
+//      return operation(x,y);
+
+// }
+
+// function mul(a,b){
+//     return 4*5;
+
+// }
+
+// let total= add(5,3,mul);
+
+// console.log(total)
+
+
+
+// async function data() {
+//     let response1= await  fetch("customer.json");
+//     let customer= await response1.json();
+
+
+//   let response2= await fetch("products.json")
+//   let products=await response2.json();
+
+//   let text ="";
+//   text = text + JSON.stringify(customer);
+//   text = text + JSON.stringify(products);
+  
+// }
+// data()
